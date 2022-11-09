@@ -119,8 +119,8 @@ class _HomeState extends State<Home> {
                                     Navigator.push(context, MaterialPageRoute(builder: (context)=>VideoPage(videoModel: snapshot.data![index])));
                                   },
                                   child: SizedBox(
-                                    width: MediaQuery.of(context).size.width,
-                                    height: 300,
+                                    width: 300,
+                                    height: 320,
                                     child: Card(
                                       child: Column(
                                         crossAxisAlignment: CrossAxisAlignment.center,
